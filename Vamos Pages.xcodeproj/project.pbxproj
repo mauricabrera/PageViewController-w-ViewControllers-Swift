@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D479ED41A4E65C00047E6B8 /* aViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D479ED31A4E65C00047E6B8 /* aViewController.swift */; };
 		4D9208BB1A4E2916009FF390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9208BA1A4E2916009FF390 /* AppDelegate.swift */; };
-		4D9208BD1A4E2916009FF390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9208BC1A4E2916009FF390 /* ViewController.swift */; };
 		4D9208C01A4E2916009FF390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9208BE1A4E2916009FF390 /* Main.storyboard */; };
 		4D9208C21A4E2916009FF390 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9208C11A4E2916009FF390 /* Images.xcassets */; };
 		4D9208C51A4E2916009FF390 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9208C31A4E2916009FF390 /* LaunchScreen.xib */; };
 		4D9208D11A4E2916009FF390 /* Vamos_PagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9208D01A4E2916009FF390 /* Vamos_PagesTests.swift */; };
+		4D9208DB1A4E296A009FF390 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9208DA1A4E296A009FF390 /* PageViewController.swift */; };
+		4D9208DD1A4E2BBE009FF390 /* bViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9208DC1A4E2BBE009FF390 /* bViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D479ED31A4E65C00047E6B8 /* aViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aViewController.swift; sourceTree = "<group>"; };
 		4D9208B51A4E2916009FF390 /* Vamos Pages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vamos Pages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9208B91A4E2916009FF390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9208BA1A4E2916009FF390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D9208BC1A4E2916009FF390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D9208BF1A4E2916009FF390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D9208C11A4E2916009FF390 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D9208C41A4E2916009FF390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4D9208CA1A4E2916009FF390 /* Vamos PagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vamos PagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9208CF1A4E2916009FF390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9208D01A4E2916009FF390 /* Vamos_PagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vamos_PagesTests.swift; sourceTree = "<group>"; };
+		4D9208DA1A4E296A009FF390 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		4D9208DC1A4E2BBE009FF390 /* bViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				4D9208BA1A4E2916009FF390 /* AppDelegate.swift */,
-				4D9208BC1A4E2916009FF390 /* ViewController.swift */,
 				4D9208BE1A4E2916009FF390 /* Main.storyboard */,
 				4D9208C11A4E2916009FF390 /* Images.xcassets */,
 				4D9208C31A4E2916009FF390 /* LaunchScreen.xib */,
 				4D9208B81A4E2916009FF390 /* Supporting Files */,
+				4D9208DA1A4E296A009FF390 /* PageViewController.swift */,
+				4D479ED31A4E65C00047E6B8 /* aViewController.swift */,
+				4D9208DC1A4E2BBE009FF390 /* bViewController.swift */,
 			);
 			path = "Vamos Pages";
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9208BD1A4E2916009FF390 /* ViewController.swift in Sources */,
+				4D9208DB1A4E296A009FF390 /* PageViewController.swift in Sources */,
+				4D9208DD1A4E2BBE009FF390 /* bViewController.swift in Sources */,
+				4D479ED41A4E65C00047E6B8 /* aViewController.swift in Sources */,
 				4D9208BB1A4E2916009FF390 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				4D9208D61A4E2916009FF390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D9208D71A4E2916009FF390 /* Build configuration list for PBXNativeTarget "Vamos PagesTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				4D9208D91A4E2916009FF390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

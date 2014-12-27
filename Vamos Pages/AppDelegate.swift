@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Vamos Pages
 //
-//  Created by Natalia C. on 26/12/14.
+//  Created by Mauri C. on 26/12/14.
 //  Copyright (c) 2014 WANT. All rights reserved.
 //
 
